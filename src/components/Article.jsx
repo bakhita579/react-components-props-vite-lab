@@ -1,4 +1,4 @@
-function Article({ title, date, preview }) {
+function Article({ title, date = 'January 1, 1970', preview }) {
   return (
     <article className="article">
       <h3>{title}</h3>
@@ -7,4 +7,5 @@ function Article({ title, date, preview }) {
     </article>
   );
 }
-export default Article
+
+export default Article;

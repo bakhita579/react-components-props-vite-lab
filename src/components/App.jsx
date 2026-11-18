@@ -33,10 +33,10 @@ export default function App({
   posts = DEFAULT_POSTS,
 }) {
   return (
-    <div className="page">
-      <Header name={name} />
-      <About image={image} about={about} />
-      <ArticleList posts={posts} />
-    </div>
-  );
+  <div className="App">
+    <Header name={name} />
+    <About image={image} about={about} />
+    <ArticleList posts={posts} />
+  </div>
+);
 }
